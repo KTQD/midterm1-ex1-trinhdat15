@@ -1,7 +1,7 @@
-public class MP3 extends Item {
+public abstract class MP3 extends Item {
     private int duration;
     public MP3(String name, String description, String ID, float price, int duration) {
-        (name, description, ID, price);
+        super(name, description, ID, price);
         this.duration = duration;
     }
 }
